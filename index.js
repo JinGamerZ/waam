@@ -246,6 +246,11 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
+    if (message.content === 'srwither') {
+    	message.reply('Te suscribiste a su canal? Es gratis.');
+  	}
+});
+client.on('message', message => {
     if (message.content === 'jin') {
     	message.reply('El es el puto amo, y tu eres una verga.');
   	}
