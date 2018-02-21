@@ -362,7 +362,5 @@ client.on('message', message => {
     	message.reply('Comete una verga entera.');
   	}
 });
-// PLAYING STATUS
-client.user.setPresence({ game: { name: '?help', type: 0 } });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
