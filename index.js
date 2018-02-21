@@ -515,5 +515,66 @@ client.on('message', message => {
     	message.reply('Para que mierda pones esa carita!');
   	}
 });
+client.on('message', message => {
+    if (message.content === 't!top') {
+    	message.reply('Estas en el puesto mas rata del server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'plz') {
+    	message.reply('Por que verga pides por favor algo consiguelo tu!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'please') {
+    	message.reply('Por que verga pides por favor algo consiguelo tu!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'we') {
+    	message.reply('Para pinche weon culeado cabeza de pija.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'bye') {
+    	message.reply('Adios estupido del orto!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'bay') {
+    	message.reply('Adios estupido del orto!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'q sad') {
+    	message.reply('Tu tienes una vida sad estupido!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'sad') {
+    	message.reply('Tu tienes una vida sad estupido!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'e.e') {
+    	message.reply('De que verga miras tu vete a ver video de nopor!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'de ti') {
+    	message.reply('Si tu verga rata!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'De ti') {
+    	message.reply('Si tu verga rata!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '+join') {
+    	message.reply('Porque en vez de entrar no te vas del server?');
+  	}
+});
 
+// BOT TOKEN
 client.login(process.env.TOKEN);
