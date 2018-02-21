@@ -352,5 +352,15 @@ client.on('message', message => {
     	message.reply('Si que, no hagas nada tonto.');
   	}
 });
+client.on('message', message => {
+    if (message.content === '>:V') {
+    	message.reply('Comete una verga entera.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '>:v') {
+    	message.reply('Comete una verga entera.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
