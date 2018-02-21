@@ -505,5 +505,10 @@ client.on('message', message => {
     	message.reply('Tu cagas los cuadrados viciado de mierda.');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'minecraft) {
+    	message.reply('Tu cagas los cuadrados viciado de mierda.');
+  	}
+});
 
 client.login(process.env.TOKEN);
