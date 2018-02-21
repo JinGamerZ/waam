@@ -334,12 +334,12 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === 'No') {
-    	message.reply('De que te impresionas estupido?');
+    	message.reply('De que verga te negas rata?');
   	}
 });
 client.on('message', message => {
     if (message.content === 'no') {
-    	message.reply('De que te impresionas estupido?');
+    	message.reply('De que verga te negas rata?');
   	}
 });
 client.on('message', message => {
