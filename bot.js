@@ -363,8 +363,16 @@ client.on('message', message => {
   	}
 });
 // PLAYING STATUS
-bot.on('ready', () => {
-  bot.user.setGame("Usa ?help");
-});
+await client.user.setGame('?help')
+    
+--OR--
+    
+await client.user.setPresence({
+  data: {
+       game: {
+            name: '?help'
+        }
+    }
+})
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
