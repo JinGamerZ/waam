@@ -362,5 +362,10 @@ client.on('message', message => {
     	message.reply('Comete una verga entera.');
   	}
 });
+client.on('message', message => {
+    if (message.content === '-.-') {
+    	message.reply('No me mires con esa carita estupido.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
