@@ -482,5 +482,18 @@ client.on('message', message => {
     	message.reply('Ce mamo tu hermana.');
   	}
 });
+
+//HELP COMMANDS
+
+client.on('message', message => {
+    if (message.content === '?helpp') {
+    	message.reply('`Comandos`');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '?helpp') {
+    	message.reply('**1** *?help*');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
