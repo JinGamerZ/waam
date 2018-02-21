@@ -148,6 +148,11 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
+    if (message.content === '=help') {
+    	message.reply('Necesitas ayuda? Pues metete una dedo en el culo!');
+  	}
+});
+client.on('message', message => {
     if (message.content === '+help') {
     	message.reply('Necesitas ayuda? Pues metete una dedo en el culo!');
   	}
@@ -174,6 +179,11 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === 'jailbreak') {
+    	message.reply('Tu eres un prisionero pero uno muy rata.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Jailbreak') {
     	message.reply('Tu eres un prisionero pero uno muy rata.');
   	}
 });
