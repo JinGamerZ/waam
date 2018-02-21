@@ -367,5 +367,10 @@ client.on('message', message => {
     	message.reply('Para que sonries si eres una mierda.');
   	}
 });
+client.on('message', message => {
+    if (message.content === ':smile:') {
+    	message.reply('Para que sonries si eres una mierda.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
