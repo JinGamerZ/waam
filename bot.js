@@ -162,5 +162,25 @@ client.on('message', message => {
     	message.reply('Dile a tu madre que te los compre idiota!');
   	}
 });
+client.on('message', message => {
+    if (message.content === '!play') {
+    	message.reply('Para que mierda quieres musica si necesitas una vida primero!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '!p') {
+    	message.reply('Para que mierda quieres musica si necesitas una vida primero!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'jailbreak') {
+    	message.reply('Tu eres un prisionero pero uno muy rata.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Jailbreak') {
+    	message.reply('Tu eres un prisionero pero uno muy rata.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
