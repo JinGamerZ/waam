@@ -267,5 +267,20 @@ client.on('message', message => {
     	message.reply('Escuchame esta trolo.');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'adios') {
+    	message.reply('Bueno adios pedaso de rata!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Adios') {
+    	message.reply('Bueno adios pedaso de rata!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === ':3') {
+    	message.reply('No eres kawaii, tu eres una rata.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
