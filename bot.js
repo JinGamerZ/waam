@@ -362,15 +362,5 @@ client.on('message', message => {
     	message.reply('Comete una verga entera.');
   	}
 });
-client.on('message', message => {
-    if (message.content === ':'v') {
-    	message.reply('Deja de usar estas caritas hijo de puta.');
-  	}
-});
-client.on('message', message => {
-    if (message.content === ':'V') {
-    	message.reply('Deja de usar estas caritas hijo de puta.');
-  	}
-});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
