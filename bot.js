@@ -197,5 +197,45 @@ client.on('message', message => {
     	message.reply('La rata de este server eres tu!');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'sr') {
+    	message.reply('Te suscribiste a su canal? Es gratis.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'wither') {
+    	message.reply('Te suscribiste a su canal? Es gratis.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'srwitherhd') {
+    	message.reply('Te suscribiste a su canal? Es gratis.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'SrWitherHD') {
+    	message.reply('Te suscribiste a su canal? Es gratis.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'jin') {
+    	message.reply('El es el puto amo, y tu eres una verga.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'jinz') {
+    	message.reply('El es el puto amo, y tu eres una verga.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'jingamerz') {
+    	message.reply('El es el puto amo, y tu eres una verga.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'JinGamerZ') {
+    	message.reply('El es el puto amo, y tu eres una verga.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
