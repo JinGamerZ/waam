@@ -27,6 +27,25 @@ client.on('message', message => {
     	message.reply('Como te va estupido?');
   	}
 });
-
+client.on('message', message => {
+    if (message.content === ':v') {
+    	message.reply('Hey, esa carita metetela en el culo!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === ':V') {
+    	message.reply('Hey, esa carita metetela en el culo!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'v:') {
+    	message.reply('Hey, esa carita metetela en el culo!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'V:') {
+    	message.reply('Hey, esa carita metetela en el culo!');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
