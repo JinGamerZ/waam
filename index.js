@@ -490,5 +490,15 @@ client.on('message', message => {
     	message.reply('Ce mamo tu hermana.');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'mmg') {
+    	message.reply('Mama guevo tu padre :))');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'mainkra') {
+    	message.reply('Tu cagas los cuadrados viciado de mierda.');
+  	}
+});
 
 client.login(process.env.TOKEN);
