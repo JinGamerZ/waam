@@ -442,5 +442,40 @@ client.on('message', message => {
     	message.reply('No mientas la concha de tu tia!');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'OkNo') {
+    	message.reply('No mientas la concha de tu tia!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'C Mamo') {
+    	message.reply('Ce mamo tu hermana.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'C mamo') {
+    	message.reply('Ce mamo tu hermana.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'c mamo') {
+    	message.reply('Ce mamo tu hermana.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'c mamut') {
+    	message.reply('Ce mamo tu hermana.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Ce mamo') {
+    	message.reply('Ce mamo tu hermana.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'ce mamo') {
+    	message.reply('Ce mamo tu hermana.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
