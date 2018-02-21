@@ -257,5 +257,15 @@ client.on('message', message => {
     	message.reply('Lo eres tu pedaso de rata!');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Oye') {
+    	message.reply('Escuchame esta trolo.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'oye') {
+    	message.reply('Escuchame esta trolo.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
