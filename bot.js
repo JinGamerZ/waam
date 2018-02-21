@@ -92,5 +92,30 @@ client.on('message', message => {
     	message.reply('Comete unas bolas peludas!');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'hack') {
+    	message.reply('Solo los usan ratas como tu.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'hacks') {
+    	message.reply('Solo los usan ratas como tu.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'hax') {
+    	message.reply('Solo los usan ratas como tu.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'roblox') {
+    	message.reply('Un juego famoso.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Roblox') {
+    	message.reply('Un juego famoso.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
