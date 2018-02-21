@@ -506,7 +506,7 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === 'minecraft) {
+    if (message.content === 'minecraft') {
     	message.reply('Tu cagas los cuadrados viciado de mierda.');
   	}
 });
