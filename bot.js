@@ -237,5 +237,25 @@ client.on('message', message => {
     	message.reply('El es el puto amo, y tu eres una verga.');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'puto') {
+    	message.reply('Eres tu y toda tu familia.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Puto') {
+    	message.reply('Eres tu y toda tu familia.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'gay') {
+    	message.reply('Lo eres tu pedaso de rata!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Gay') {
+    	message.reply('Lo eres tu pedaso de rata!');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
