@@ -367,10 +367,6 @@ client.on('message', message => {
     	message.reply('No me mires con esa carita estupido.');
   	}
 });
-// SET GAME
-client.on('ready', () => {
-client.user.setActivity('Usa ?help', {type: 1})
-})
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
