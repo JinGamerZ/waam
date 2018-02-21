@@ -5,6 +5,18 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+client.on('ready', () => {
+  client.user.setStatus('online')
+})
+
+client.on('ready', () => {
+  client.user.setGame('Usa ?help');
+})
+
+bot.login("BOT_TOKEN");
+
+// MESSAGES
+
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
@@ -367,6 +379,3 @@ client.on('message', message => {
     	message.reply('No me mires con esa carita estupido.');
   	}
 });
-
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
