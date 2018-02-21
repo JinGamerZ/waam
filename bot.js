@@ -47,5 +47,50 @@ client.on('message', message => {
     	message.reply('Hey, esa carita metetela en el culo!');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'xd') {
+    	message.reply('La x es de XXX y la d es de tu verga doblada rata.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'xD') {
+    	message.reply('La x es de XXX y la d es de tu verga doblada rata.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '@Wiim') {
+    	message.reply('Que verga quieres niño retrasad@!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'vida') {
+    	message.reply('Comele la verga entera.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Vida') {
+    	message.reply('Comele la verga entera.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'noob') {
+    	message.reply('Lo eres tu estupido noob');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Noob') {
+    	message.reply('Lo eres tu estupido noob');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Alv') {
+    	message.reply('Comete unas bolas peludas!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'alv') {
+    	message.reply('Comete unas bolas peludas!');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
