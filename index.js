@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    client.user.setActivity('?help', {type: 'Playing'});
+    client.user.setActivity('Usa ?help', {type: 'Playing'});
 });
 
 client.on('message', msg => {
