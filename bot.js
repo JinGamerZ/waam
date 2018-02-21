@@ -28,6 +28,11 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
+    if (message.content === 'Hola') {
+    	message.reply('Como te va estupido?');
+  	}
+});
+client.on('message', message => {
     if (message.content === ':v') {
     	message.reply('Hey, esa carita metetela en el culo!');
   	}
