@@ -362,5 +362,40 @@ client.on('message', message => {
     	message.reply('Comete una verga entera.');
   	}
 });
+// PLAYING STATUS
+/**
+   * A user's status. Must be one of:
+   * * `online`
+   * * `idle`
+   * * `invisible`
+   * * `dnd` (do not disturb)
+   * @typedef {string} PresenceStatus
+   */
+
+  /**
+   * Sets the status of the client user.
+   * @param {PresenceStatus} status Status to change to
+   * @returns {Promise<ClientUser>}
+   */
+  setStatus(status) {
+    return this.setPresence({ status });
+  }
+
+  /**
+   * Sets the game the client user is playing.
+   * @param {?string} game Game being played
+   * @param {?string} [streamingURL] Twitch stream URL
+   * @returns {Promise<ClientUser>}
+   * @deprecated
+   */
+  setGame(game, streamingURL) {
+    if (!game) return this.setPresence({ game: null });
+    return this.setPresence({
+      game: {
+        name: game,
+        url: streamingURL,
+      },
+    });
+  }
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
