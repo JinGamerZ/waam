@@ -53,6 +53,11 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
+    if (message.content === 'XD') {
+    	message.reply('La x es de XXX y la d es de tu verga doblada rata.');
+  	}
+});
+client.on('message', message => {
     if (message.content === 'xD') {
     	message.reply('La x es de XXX y la d es de tu verga doblada rata.');
   	}
