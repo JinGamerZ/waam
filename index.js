@@ -510,5 +510,10 @@ client.on('message', message => {
     	message.reply('Tu cagas los cuadrados viciado de mierda.');
   	}
 });
+client.on('message', message => {
+    if (message.content === ';-;') {
+    	message.reply('Para que mierda pones esa carita!');
+  	}
+});
 
 client.login(process.env.TOKEN);
