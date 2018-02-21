@@ -363,5 +363,8 @@ client.on('message', message => {
   	}
 });
 // PLAYING STATUS
+bot.on('ready', () => {
+  bot.user.setGame("Usa ?help");
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
