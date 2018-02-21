@@ -188,8 +188,13 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === 'Jailbreak') {
-    	message.reply('Tu eres un prisionero pero uno muy rata.');
+    if (message.content === 'rata') {
+    	message.reply('La rata de este server eres tu!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Rata') {
+    	message.reply('La rata de este server eres tu!');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
