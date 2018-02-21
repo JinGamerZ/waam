@@ -367,6 +367,16 @@ client.on('message', message => {
     	message.reply('No me mires con esa carita estupido.');
   	}
 });
+client.on('message', message => {
+    if (message.content === '-_-') {
+    	message.reply('No me mires con esa carita estupido.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '-_-') {
+    	message.reply('No me mires con esa carita estupido.');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
