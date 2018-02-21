@@ -27,12 +27,12 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === 'hola') {
-    	message.reply('Como te va estupido?');
+    	message.reply('Como te va estupid@?');
   	}
 });
 client.on('message', message => {
     if (message.content === 'Hola') {
-    	message.reply('Como te va estupido?');
+    	message.reply('Como te va estupid@?');
   	}
 });
 client.on('message', message => {
