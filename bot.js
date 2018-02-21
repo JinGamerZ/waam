@@ -377,6 +377,70 @@ client.on('message', message => {
     	message.reply('No me mires con esa carita estupido.');
   	}
 });
-
+client.on('message', message => {
+    if (message.content === 't!profile') {
+    	message.reply('Para que quieres ver tu perfil de rata?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'negro') {
+    	message.reply('Eres tu y toda tu verga de familia.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Negro') {
+    	message.reply('Eres tu y toda tu verga de familia.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'negros') {
+    	message.reply('Eres tu y toda tu verga de familia.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Negros') {
+    	message.reply('Eres tu y toda tu verga de familia.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'de nada') {
+    	message.reply('No agradezcas a alguien rata.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'De nada') {
+    	message.reply('No agradezcas a alguien rata.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'De Nada') {
+    	message.reply('No agradezcas a alguien rata.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'nada') {
+    	message.reply('Ya ahora lo decis estupido.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Nada') {
+    	message.reply('Ya ahora lo decis estupido.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'okno') {
+    	message.reply('No mientas la concha de tu tia!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Okno') {
+    	message.reply('No mientas la concha de tu tia!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'OkNo') {
+    	message.reply('No mientas la concha de tu tia!');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
