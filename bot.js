@@ -352,5 +352,20 @@ client.on('message', message => {
     	message.reply('Si que, no hagas nada tonto.');
   	}
 });
+client.on('message', message => {
+    if (message.content === ':(') {
+    	message.reply('De que mierda te sientes mal?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === ':)') {
+    	message.reply('De que verga estas feliz?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === ':D') {
+    	message.reply('Para que sonries si eres una mierda.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
