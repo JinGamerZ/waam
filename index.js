@@ -66,6 +66,11 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
+    if (message.content === ':u') {
+    	message.reply('Hey, esa carita metetela en el culo! (:');
+  	}
+});
+client.on('message', message => {
     if (message.content === 'xd') {
     	message.reply('La x es de XXX y la d es de tu verga doblada rata.');
   	}
