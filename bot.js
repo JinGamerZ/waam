@@ -287,5 +287,10 @@ client.on('message', message => {
     	message.reply('No eres kawaii, tu eres una rata.');
   	}
 });
+client.on('message', message => {
+    if (message.content === '!skip') {
+    	message.reply('Para que la saltas pedaso de estupido.');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
