@@ -152,5 +152,15 @@ client.on('message', message => {
     	message.reply('Necesitas ayuda? Pues metete una dedo en el culo!');
   	}
 });
+client.on('message', message => {
+    if (message.content === '!rank') {
+    	message.reply('Tu rank es el de los estupidos porque tu lo eres!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 't!credits') {
+    	message.reply('Dile a tu madre que te los compre idiota!');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
