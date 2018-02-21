@@ -117,5 +117,40 @@ client.on('message', message => {
     	message.reply('Un juego famoso.');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Robux') {
+    	message.reply('Comprate una vida con tu dinero!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'robux') {
+    	message.reply('Comprate una vida con tu dinero!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'robux') {
+    	message.reply('Comprate una vida con tu dinero!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '?help') {
+    	message.reply('Necesitas ayuda? Pues metete una dedo en el culo!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '!help') {
+    	message.reply('Necesitas ayuda? Pues metete una dedo en el culo!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '.help') {
+    	message.reply('Necesitas ayuda? Pues metete una dedo en el culo!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '+help') {
+    	message.reply('Necesitas ayuda? Pues metete una dedo en el culo!');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
