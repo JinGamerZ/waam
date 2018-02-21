@@ -323,6 +323,11 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
+    if (message.content === 'LEL') {
+    	message.reply('De que te impresionas estupido?');
+  	}
+});
+client.on('message', message => {
     if (message.content === 'Lol') {
     	message.reply('De que te impresionas estupido?');
   	}
