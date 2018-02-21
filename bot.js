@@ -11,5 +11,22 @@ client.on('message', message => {
   	}
 });
 
+// BOT ANSWERS
+client.on('message', message => {
+    if (message.content === '?creadores') {
+    	message.reply('Wiim esta creado por @JinGamerZ Y @SrWitherHD.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '?creditos') {
+    	message.reply('Wiim esta creado por @JinGamerZ Y @SrWitherHD.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'hola') {
+    	message.reply('Como te va estupido?');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
