@@ -53,6 +53,16 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
+    if (message.content === ';v') {
+    	message.reply('Hey, esa carita metetela en el culo!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'v;') {
+    	message.reply('Hey, esa carita metetela en el culo!');
+  	}
+});
+client.on('message', message => {
     if (message.content === 'xd') {
     	message.reply('La x es de XXX y la d es de tu verga doblada rata.');
   	}
@@ -300,6 +310,46 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === '!skip') {
     	message.reply('Para que la saltas pedaso de estupido.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Lel') {
+    	message.reply('De que te impresionas estupido?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'lel') {
+    	message.reply('De que te impresionas estupido?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Lol') {
+    	message.reply('De que te impresionas estupido?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'lol') {
+    	message.reply('De que te impresionas estupido?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'No') {
+    	message.reply('De que te impresionas estupido?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'no') {
+    	message.reply('De que te impresionas estupido?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Si') {
+    	message.reply('Si que, no hagas nada tonto.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'si') {
+    	message.reply('Si que, no hagas nada tonto.');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
