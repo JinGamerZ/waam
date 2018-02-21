@@ -113,6 +113,11 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
+    if (message.content === 'Hacks') {
+    	message.reply('Solo los usan ratas como tu.');
+  	}
+});
+client.on('message', message => {
     if (message.content === 'hax') {
     	message.reply('Solo los usan ratas como tu.');
   	}
