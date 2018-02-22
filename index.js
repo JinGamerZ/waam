@@ -14,6 +14,43 @@ client.on('message', msg => {
     else if (command === 'invite') return msg.channel.send(process.env.INVITE);
 });
 
+// USER INFO
+bot.on("message", async message => {
+  if(message.author.bot) return;
+  if(message.channel.type === "online") return;
+
+  let messageArray = message.content.split(" ");
+  let command = messageArray[0];
+  let args = messageArray.slice(1);
+
+  if(!command.startsWith(prefix)) return;
+
+  let cmd = bot.commands.get(command.slice(prefix.length));
+  if(cmd) cmd.run(bot, message, args);
+
+  if(command === `?userinfo`) {
+    let member = message.mentions.members.first();
+    if(!member)
+      return message.reply("Please mention a valid member of this server");
+
+    let embed = new Discord.RichEmbed()
+      .setDescription(`**Userinfo from: ${member.user}**`)
+      .addField("***User ID:***", member.user.id)
+      .setColor(Math.floor(Math.random() * 16777214) + 1,)
+      .addField("***Discord Tag:***", member.user.tag)
+      .addField("***Nickname:***", member.user.username)
+      .addField("***Status:***", member.user.status)
+      .addField("***Account Created At:***", member.user.createdAt)
+      .setFooter(`Userinfo created by Nep`);
+      
+
+      message.channel.sendEmbed(embed);
+
+      return;
+    
+    console.log(`[Command Log] ${message.author.username} has used the userinfo Command!`)
+  }
+
 // BOT ANSWERS
 client.on('message', message => {
     if (message.content === '?creadores') {
