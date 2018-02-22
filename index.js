@@ -81,6 +81,11 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
+    if (message.content === 'Xd') {
+    	message.reply('La x es de XXX y la d es de tu verga doblada rata.');
+  	}
+});
+client.on('message', message => {
     if (message.content === 'xD') {
     	message.reply('La x es de XXX y la d es de tu verga doblada rata.');
   	}
@@ -573,6 +578,16 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === '+join') {
     	message.reply('Porque en vez de entrar no te vas del server?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 't!daily') {
+    	message.reply('No vas a recivir nada por put*');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'no c') {
+    	message.reply('No sabes que? >:|');
   	}
 });
 
