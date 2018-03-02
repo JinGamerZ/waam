@@ -17,7 +17,7 @@ client.on('message', msg => {
 // BOT ANSWERS
 client.on('message', message => {
     if (message.content === '-help') {
-    	message.reply('**Commands** *-credits, -invite**');
+    	message.reply('**Commands** *-credits, -invite*');
   	}
 });
 client.on('message', message => {
