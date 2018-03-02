@@ -17,7 +17,17 @@ client.on('message', msg => {
 // BOT ANSWERS
 client.on('message', message => {
     if (message.content === '-help') {
-    	message.reply('Wiim is being developed, we will soon add commands.');
+    	message.reply('**Commands** *-credits, -invite**');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '-credits') {
+    	message.reply('Wiim is being created by @JinGamerZ and @SrWitherHD.');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '-invite') {
+    	message.reply('Invite me! https://discordapp.com/api/oauth2/authorize?client_id=415709298048499714&permissions=8&scope=bot');
   	}
 });
 
