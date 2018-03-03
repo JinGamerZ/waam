@@ -147,8 +147,9 @@ var checkCommand = function(msg, isMention) {
 }
 
 bot.on("ready", () => {
-    console.log('Ready to begin! Serving in ' + bot.guilds.array().length + ' servers.');
-    bot.user.setStatus("online", "");
+    bot.user.setActivity("Use -help", {type: "Playing"});
+    bot.user.setStatus('online')
+    console.log(`${bot.user.username} is ready!`)
     loadCommands();
 });
 
