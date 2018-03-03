@@ -8,5 +8,5 @@ module.exports = {
 			newMsg.edit("Pong! `("+diff+"ms)`");
 		});
     },
-    help: 'Ping the bot'
+    help: 'Ping the bot.'
 };
