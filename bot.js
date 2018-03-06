@@ -147,7 +147,7 @@ var checkCommand = function(msg, isMention) {
 }
 
 bot.on("ready", () => {
-    bot.user.setActivity("Use -help", {type: "Playing"});
+    bot.user.setActivity("OMG! Use -help", {type: "Playing"});
     bot.user.setStatus('online')
     console.log(`${bot.user.username} is ready!`)
     loadCommands();
